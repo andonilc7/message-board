@@ -1,0 +1,31 @@
+<!-- msgDetails.ejs -->
+<html>
+  <head>
+    <title>Message Details</title>
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <h1 class="pg-title">Message Details</h1>
+    <div class="main-content">
+      <!-- msg example for reference: {
+    id: uuidv4(),
+    text: "Hi there!",
+    user: "Amando",
+    added: new Date()
+  }, -->
+  <div class="msg-cont">
+    <div class="msg-header">
+        <p><strong>User</strong>: <%= msg.user %></p>
+    </div>
+      <p class="msg"><strong>Message</strong>: <%= msg.text %> </p>
+    <div class="msg-details-footer">
+      <p><strong>Exact Time</strong>: <%= msg.added %></p>
+    </div>
+      
+  </div>
+  <a class="back-btn-link" href="/">
+    <button class="back-btn">Back</button>
+  </a>
+    
+  </body>
+</html>

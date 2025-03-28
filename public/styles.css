@@ -1,0 +1,108 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.pg-title {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.msg-list-cont {
+  display: flex;
+  flex-direction: column;
+}
+
+.msg-cont {
+  background-color: beige;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 10 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.msg-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  border-bottom: 1px solid grey;
+  padding-bottom: 10px;
+}
+
+.msg {
+  padding: 15px 0;
+}
+
+.msg-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: auto;
+  gap: 10px;
+}
+
+.msg-form > * {
+  padding: 5px 8px;
+  border: 1px solid black;
+  border-radius: 3px;
+  background-color: rgb(219, 219, 255);
+}
+
+#submit {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.add-msg-btn {
+  padding: 10px 20px;
+  background-color: antiquewhite;
+  border-radius: 3px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.add-msg-btn-link {
+  margin-bottom: 20px;
+}
+
+.msg-footer {
+  display: flex;
+  justify-content: end;
+}
+
+.open-msg-btn {
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 3px;
+  background-color: whitesmoke;
+  cursor: pointer
+}
+
+.msg-details-footer {
+  border-top: 1px solid grey;
+  padding-top: 10px;
+}
+
+.back-btn {
+  padding: 10px 20px;
+  background-color: antiquewhite;
+  border-radius: 3px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.btn-cont {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}

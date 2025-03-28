@@ -1,0 +1,13 @@
+<div class="msg-cont">
+  <div class="msg-header">
+      <p><%= item.user %></p>
+      <p><%= item.added.toLocaleString('en-US') %> </p>
+  </div>
+    <p class="msg"><%= item.text %> </p>
+  <div class="msg-footer">
+    <a class="open-msg-btn-link" href="/message/<%= item.id %>">
+      <button class="open-msg-btn">Open</button>
+    </a>
+  </div>
+    
+</div>

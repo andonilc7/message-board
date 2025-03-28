@@ -1,0 +1,21 @@
+<!-- index.ejs -->
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <h1 class="pg-title"><%= title %></h1>
+    <div class="main-content">
+      <a class="add-msg-btn-link" href="/new">
+        <button class="add-msg-btn">Add a message</button>
+      </a>
+      <div class="msg-list-cont">
+        <% message.forEach((item) => { %>
+          <%- include('message', {item: item}); %>
+        <% }) %>
+        </div>
+    </div>
+    
+  </body>
+</html>

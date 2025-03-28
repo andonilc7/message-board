@@ -1,0 +1,25 @@
+<!-- form.ejs -->
+<html>
+  <head>
+    <title>New Message</title>
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <div class="main-cont">
+    <h1 class="pg-title">New Message</h1>
+    <form method="POST" action="/new" class="msg-form">
+      <input type="text" id="name" name="name" placeholder="Name" required/>
+      <textarea id="message" name="message" placeholder="Message" required></textarea>
+      <button id="submit" type="submit">Submit</button>
+    </form>
+    <div class="btn-cont">
+      <a class="back-btn-link" href="/">
+        <button class="back-btn">Back</button>
+      </a>
+    </div>
+   
+  </div>
+    
+  </body>
+</html>
+
