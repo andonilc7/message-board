@@ -1,1 +1,4 @@
 This is a mini message-board created aligning with the directions as specified by The Odin Project. In this project, I practiced using Express as the backend framework to handle HTTP requests and build the logic for rendering messages. The goal was to create a basic web application where users can view, post, and interact with messages. I also used EJS for templating and rendering views. This project was in accordance with the MVC (Model-View-Controller) architecture, but a bit simpler since I stored the minimal data in an in-memory array (instead of model), and I handled the retrieval and creation of messages within the routes themselves since the logic was fairly simply (instead of creating controllers).
+
+Deployed with Render.
+Link: https://message-board-hobp.onrender.com
